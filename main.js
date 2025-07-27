@@ -37,7 +37,6 @@ const quoteCommand = require('./commands/quote');
 const factCommand = require('./commands/fact');
 const weatherCommand = require('./commands/weather');
 const newsCommand = require('./commands/news');
-const newsCommand = require('./commands/getpp');
 const kickCommand = require('./commands/kick');
 const simageCommand = require('./commands/simage');
 const attpCommand = require('./commands/attp');

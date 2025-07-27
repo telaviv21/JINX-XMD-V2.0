@@ -1,6 +1,7 @@
 /*Créditos A Quien Correspondan 
 Play Traido y Editado 
 Por Cuervo-Team-Supreme*/
+
 const axios = require('axios');
 const crypto = require('crypto');
 const yts = require('yt-search');
@@ -185,7 +186,7 @@ async function songCommand(sock, chatId, message) {
         try {
             sentMsg = await sock.sendMessage(chatId, {
                 image: { url: result.result.thumbnail },
-                caption: `*${result.result.title}*\n\n> _dσwnlσαdíng чσur sσng....._\n *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ 👻*`
+                caption: `*${result.result.title}*\n\n _Downloading song Request ..._\n  *_By 𝙅𝙄𝙉𝙓-𝙓𝙈𝘿*`
             }, { quoted: message });
         } catch (e) {
             // If thumbnail fails, fallback to just sending the audio
